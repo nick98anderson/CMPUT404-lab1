@@ -1,6 +1,6 @@
 1. https://github.com/nick98anderson
 
-2. requests 2.25.1
+2.requests 2.25.1
 
 3 requests 2.27.1
 
@@ -8,9 +8,13 @@
    packages. everything in the virutalenv is localized into the lab1 folder thus its dependecies are 
    isolated from my whole systel overall. 
 
-5. status code: 200 Ok. you must visit a url that directs to an activily working serving that can accept http requests
+5.status code: 200 Ok. you must visit a url that directs to an activily working serving that can accept http requests
 
 6. You get a 418 status code when you curl http://www.google.com/teapot with -i and -iL. the status code indicates
 that the serving we are trying to communicate with (google in this case) refuses to brew cofee because it a teapot. 
 
-7. 
+7. The "X=Y" data was filled into the Form Content section. the -X POST command is the standard way of doing a POST request with cURL.
+   a post request is a form of a request where data is sent along with the request and to be read by the server. 
+
+8. https://raw.githubusercontent.com/nick98anderson/CMPUT404-lab1/master/scripts.py
+   
